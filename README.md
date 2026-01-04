@@ -43,11 +43,11 @@ Before running this application, make sure you have the following installed:
    ```sql
    CREATE DATABASE hotel_db;
    ```
-3. Update database credentials in `HotelReservationSystem/src/main/resources/application.properties` if needed:
+3. Update database credentials in `HotelReservationSystem/src/main/resources/application.properties`:
    ```properties
    spring.datasource.url=jdbc:postgresql://localhost:5432/hotel_db
-   spring.datasource.username=postgres
-   spring.datasource.password=1q2w3e
+   spring.datasource.username=your_postgres_username
+   spring.datasource.password=your_postgres_password
    ```
 
 ## 🚀 Installation and Running
